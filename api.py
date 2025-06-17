@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from main_torchHYBRID import prepare_data, HybridModel, predict, get_pollutant_level, calculate_wqi
 
 # Initialize Flask app
-app = Flask(__name__, static_folder='../frontend')
+app = Flask(__name__, static_folder='../CPENDashboard')
 CORS(app)  # Enable CORS for all routes
 
 # Global variables for model and data
