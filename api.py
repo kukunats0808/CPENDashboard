@@ -41,7 +41,7 @@ def load_model_and_data():
 @app.route('/')
 def serve_frontend():
     """Serve the main frontend interface"""
-    return send_from_directory('../frontend', 'index.html')
+    return send_from_directory('../CPENDashboard', 'index.html')
 
 
 @app.route('/<path:path>')
